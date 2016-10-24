@@ -1,0 +1,494 @@
+[ 2016-10-24T10:03:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+
+[ 2016-10-24T10:03:45+08:00 ] 127.0.0.1 /Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-10-24T10:04:06+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.1813s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:05:41+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0333s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:09:01+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0273s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:09:01+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0317s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:09:01+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0296s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:09:27+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0314s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2016-10-24T10:10:38+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0288s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:10:54+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0277s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:11:09+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0288s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:11:15+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0384s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:11:34+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0310s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:11:44+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0362s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T10:12:20+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.1130s ]
+
+[ 2016-10-24T10:19:30+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0503s ]
+NOTIC: [8] Undefined index: user_id C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php 第 73 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 74 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:09:32+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0292s ]
+NOTIC: [8] Undefined index: user_id C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php 第 73 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 74 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:09:48+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0289s ]
+NOTIC: [8] Undefined index: user_id C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php 第 73 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 74 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:10:06+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0337s ]
+NOTIC: [8] Undefined index: us_id C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php 第 73 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 74 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:10:18+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0328s ]
+NOTIC: [8] Undefined index: token C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php 第 73 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 74 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:23:17+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0332s ]
+NOTIC: [8] Undefined index: token C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php 第 73 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 74 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:23:48+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0393s ]
+NOTIC: [8] Undefined index: token C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php 第 73 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 74 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:23:56+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `oa_user` LIMIT 1   [ RunTime:0.1164s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 55 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 55 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: message C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 59 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:28:20+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.1133s ]
+SQL: SELECT * FROM `oa_user` WHERE `u_id` = 0 LIMIT 1   [ RunTime:0.0274s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 55 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 55 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: message C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 59 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-24T11:29:27+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `oa_user` WHERE `u_id` = 123123 LIMIT 1   [ RunTime:0.3395s ]
+
+[ 2016-10-24T11:30:46+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `oa_user` WHERE `u_id` = 123123 LIMIT 1   [ RunTime:0.0289s ]
+
+[ 2016-10-24T11:31:02+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `oa_user` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0406s ]
+
+[ 2016-10-24T12:14:05+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0333s ]
+NOTIC: [8] Undefined variable: user C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\UserModel.class.php 第 59 行.
+
+[ 2016-10-24T12:14:11+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0289s ]
+NOTIC: [8] Undefined variable: user C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\UserModel.class.php 第 59 行.
+
+[ 2016-10-24T12:14:35+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0395s ]
+NOTIC: [8] Undefined variable: user C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\UserModel.class.php 第 59 行.
+SQL: SELECT
+    *
+FROM
+    (
+        SELECT
+            --  a.u_id as u_id,a.username as username,a.password as password,a.role_id,a.create_time as create_time,oa_role_auth.auth_id as auth_id
+            a.*, oa_role_auth.auth_id
+        FROM
+            (
+                SELECT
+                    oa_user.*, oa_user_role.role_id
+                FROM
+                    oa_user
+                JOIN oa_user_role ON oa_user.u_id = oa_user_role.user_id
+            ) AS a
+        JOIN oa_role_auth ON a.role_id = oa_role_auth.role_id
+    ) AS b
+JOIN oa_role ON b.role_id = oa_role.role_id
+WHERE u_id = 1 [ RunTime:0.0287s ]
+
+[ 2016-10-24T12:14:47+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0570s ]
+SQL: SELECT
+    *
+FROM
+    (
+        SELECT
+            --  a.u_id as u_id,a.username as username,a.password as password,a.role_id,a.create_time as create_time,oa_role_auth.auth_id as auth_id
+            a.*, oa_role_auth.auth_id
+        FROM
+            (
+                SELECT
+                    oa_user.*, oa_user_role.role_id
+                FROM
+                    oa_user
+                JOIN oa_user_role ON oa_user.u_id = oa_user_role.user_id
+            ) AS a
+        JOIN oa_role_auth ON a.role_id = oa_role_auth.role_id
+    ) AS b
+JOIN oa_role ON b.role_id = oa_role.role_id
+WHERE u_id = 1 [ RunTime:0.0267s ]
+
+[ 2016-10-24T12:19:21+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-10-24T12:19:28+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0300s ]
+SQL: SELECT
+    *
+FROM
+    (
+        SELECT
+            --  a.u_id as u_id,a.username as username,a.password as password,a.role_id,a.create_time as create_time,oa_role_auth.auth_id as auth_id
+            a.*, oa_role_auth.auth_id
+        FROM
+            (
+                SELECT
+                    oa_user.*, oa_user_role.role_id
+                FROM
+                    oa_user
+                JOIN oa_user_role ON oa_user.u_id = oa_user_role.user_id
+            ) AS a
+        JOIN oa_role_auth ON a.role_id = oa_role_auth.role_id
+    ) AS b
+JOIN oa_role ON b.role_id = oa_role.role_id
+WHERE u_id = 1
+order by oa_role.role_id asc [ RunTime:0.0283s ]
+
+[ 2016-10-24T12:26:11+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-10-24T12:26:21+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-10-24T12:26:46+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0271s ]
+SQL: SELECT
+    *
+FROM
+    (
+        SELECT
+            --  a.u_id as u_id,a.username as username,a.password as password,a.role_id,a.create_time as create_time,oa_role_auth.auth_id as auth_id
+            a.*, oa_role_auth.auth_id
+        FROM
+            (
+                SELECT
+                    oa_user.*, oa_user_role.role_id
+                FROM
+                    oa_user
+                JOIN oa_user_role ON oa_user.u_id = oa_user_role.user_id
+            ) AS a
+        JOIN oa_role_auth ON a.role_id = oa_role_auth.role_id
+    ) AS b
+JOIN oa_role ON b.role_id = oa_role.role_id
+WHERE
+    u_id = 1
+ORDER BY
+    oa_role.role_id ASC [ RunTime:0.0281s ]
+
+[ 2016-10-24T15:20:23+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0299s ]
+SQL: SELECT
+    *
+FROM
+    (
+        SELECT
+            --  a.u_id as u_id,a.username as username,a.password as password,a.role_id,a.create_time as create_time,oa_role_auth.auth_id as auth_id
+            a.*, oa_role_auth.auth_id
+        FROM
+            (
+                SELECT
+                    oa_user.*, oa_user_role.role_id
+                FROM
+                    oa_user
+                JOIN oa_user_role ON oa_user.u_id = oa_user_role.user_id
+            ) AS a
+        JOIN oa_role_auth ON a.role_id = oa_role_auth.role_id
+    ) AS b
+JOIN oa_role ON b.role_id = oa_role.role_id
+WHERE
+    u_id = 1
+ORDER BY
+    oa_role.role_id ASC [ RunTime:0.0275s ]
+

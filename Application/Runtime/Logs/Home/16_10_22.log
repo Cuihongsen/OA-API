@@ -1,0 +1,1117 @@
+[ 2016-10-22T09:51:15+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-10-22T09:51:26+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-10-22T09:51:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-10-22T09:51:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-10-22T09:51:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-10-22T09:51:28+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-10-22T09:51:28+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-10-22T09:51:28+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-10-22T09:51:29+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-10-22T09:51:29+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-10-22T09:51:30+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-10-22T09:51:30+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-10-22T09:51:31+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-10-22T09:51:46+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-10-22T09:51:50+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-10-22T09:52:36+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-10-22T09:52:38+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-10-22T09:52:48+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-10-22T09:52:48+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-10-22T09:52:48+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-10-22T09:52:49+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-10-22T09:52:49+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-10-22T09:52:49+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-10-22T09:52:49+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-10-22T09:52:50+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-10-22T09:52:50+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-10-22T09:52:50+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-10-22T09:52:51+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-10-22T09:52:51+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-10-22T09:52:51+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-10-22T09:52:51+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-10-22T10:08:38+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-10-22T10:08:39+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-10-22T10:08:40+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-10-22T10:08:40+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-10-22T10:08:40+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-10-22T10:08:40+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-10-22T10:08:40+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-10-22T10:08:41+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-10-22T10:08:41+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-10-22T10:08:41+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-10-22T10:08:41+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-10-22T10:08:58+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-10-22T10:09:01+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+
+[ 2016-10-22T10:09:01+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-10-22T10:09:01+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-10-22T10:09:02+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-10-22T10:09:02+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-10-22T10:09:02+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-10-22T10:09:03+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+
+[ 2016-10-22T10:09:03+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+
+[ 2016-10-22T10:09:03+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+
+[ 2016-10-22T10:09:04+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-10-22T10:09:04+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-10-22T10:09:04+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-10-22T10:09:04+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-10-22T10:09:04+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-10-22T10:09:05+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-10-22T10:09:05+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-10-22T10:09:05+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-10-22T10:09:06+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-10-22T10:09:06+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-10-22T10:09:06+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-10-22T10:09:06+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-10-22T10:09:06+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+
+[ 2016-10-22T10:09:08+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-10-22T10:09:08+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-10-22T10:09:08+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-10-22T10:09:08+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-10-22T10:09:08+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+
+[ 2016-10-22T10:09:20+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-10-22T10:09:20+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-10-22T10:09:21+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-10-22T10:09:21+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+
+[ 2016-10-22T10:09:21+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-10-22T10:09:38+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-10-22T10:09:39+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-10-22T10:09:39+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-10-22T10:09:39+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-10-22T10:09:39+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-10-22T10:09:46+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-10-22T10:09:48+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-10-22T10:09:49+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-10-22T10:09:49+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-10-22T10:10:40+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-10-22T10:14:36+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004518s ]
+
+[ 2016-10-22T10:14:37+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-10-22T10:14:39+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-10-22T10:14:39+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-10-22T10:14:40+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-10-22T10:14:42+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-10-22T10:14:43+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-10-22T10:14:44+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-10-22T10:14:45+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-10-22T10:14:46+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-10-22T10:15:25+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-10-22T10:15:25+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-10-22T10:15:26+08:00 ] 127.0.0.1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-10-22T10:16:01+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+
+[ 2016-10-22T10:20:55+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+
+[ 2016-10-22T10:20:56+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+
+[ 2016-10-22T10:20:57+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+
+[ 2016-10-22T10:23:07+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+ERR: 1146:Table 'oa.T_User' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `T_User`
+
+[ 2016-10-22T10:23:28+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+
+[ 2016-10-22T10:23:29+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+
+[ 2016-10-22T10:23:31+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+
+[ 2016-10-22T10:23:31+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+ERR: 1146:Table 'oa.oauser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oauser`
+
+[ 2016-10-22T10:23:37+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa_'
+
+[ 2016-10-22T10:23:50+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0455s ]
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+
+[ 2016-10-22T10:23:53+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0305s ]
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+
+[ 2016-10-22T10:23:54+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0388s ]
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+
+[ 2016-10-22T10:23:54+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.1735s ]
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+ERR: 1146:Table 'oa.oa_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_log`
+
+[ 2016-10-22T10:24:24+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0260s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 38 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:24:27+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0261s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 38 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:24:27+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0232s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 38 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:24:28+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0241s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 38 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:24:30+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0211s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 38 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:25:33+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0236s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 38 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:25:35+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0269s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 47 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:26:56+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0228s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 27 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:26:57+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0237s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 27 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+
+[ 2016-10-22T10:28:45+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0239s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2016-10-22T10:28:52+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0213s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2016-10-22T10:28:56+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.0247s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2016-10-22T10:28:57+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.1465s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2016-10-22T10:29:45+08:00 ] ::1 /Home/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `oa_user` [ RunTime:0.2918s ]
+NOTIC: [2] Missing argument 3 for Home\Model\ReturnCodeModel::send(), called in C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Controller\BasicController.class.php on line 28 and defined C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 57 行.
+NOTIC: [8] Undefined variable: contents C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\Application\Home\Model\ReturnCodeModel.class.php 第 66 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\Users\cui94\Desktop\CUI-SVN\project\OA\code\api\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
