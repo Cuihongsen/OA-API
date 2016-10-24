@@ -8,7 +8,10 @@ class SignController extends BasicController
 {
     public function index()
     {
-        $this->_checkToken();
+
+           $this->user= $this->_checkToken();
+           var_dump($this->user);
+
         $this->ajaxReturn(array(session_id() . 'asdfjhasjhdf'));
     }
 }

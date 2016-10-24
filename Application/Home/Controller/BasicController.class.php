@@ -51,11 +51,11 @@ class BasicController extends Controller
         $this->_checkParams(array('u_id', 'token'));
         $user = $this->UserModel->findUser(I('post.u_id'));
         // dump($user);
-        die();
+        // die();
         // $this->UserModel->checkToken($user, I('post.token'));
-        if ($user['token'] !== I('post.token')) {
-            $this->ajaxReturn(ReturnCodeModel::send(601));
-        }
+        // if ($user['token'] !== I('post.token')) {
+        //     $this->ajaxReturn(ReturnCodeModel::send(601));
+        // }
         return $user;
     }
 

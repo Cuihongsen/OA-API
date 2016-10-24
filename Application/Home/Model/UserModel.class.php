@@ -42,7 +42,6 @@ class UserModel extends Model
 FROM
     (
         SELECT
-            --  a.u_id as u_id,a.username as username,a.password as password,a.role_id,a.create_time as create_time,oa_role_auth.auth_id as auth_id
             a.*, oa_role_auth.auth_id
         FROM
             (
@@ -60,49 +59,47 @@ WHERE
 ORDER BY
     oa_role.role_id ASC";
         $result = $dbModel->query($sql);
-        if (!$user) {
+        if (!$result) {
             return false;
         }
         $user = array();
         foreach ($result as $key => $value) {
-            $user['u_id']=$value['u_id'],
-            $user['username']
-            $user['password']
-
-
-            
-            $user['create_time']
-            $user['role_id']
-            $user['auth_id']
-            $user['role_name']
-            $user['role_description']
+            $user['u_id']             = $value['u_id'];
+            $user['username']         = $value['username'];
+            $user['password']         = $value['password'];
+            $user['create_time']      = $value['create_time'];
+            $user['role_id']          = $value['role_id'];
+            $user['auth_id']          = $value['auth_id'];
+            $user['role_name']        = $value['role_name'];
+            $user['role_description'] = $value['role_description'];
         }
-        dump($user);
-        die();
-        $T_User_RoleModel                = new \Think\Model();
-        $T_User_RoleModel->trueTableName = 'T_User_Role';
-        $T_User_Role                     = $T_User_RoleModel->where(array('user_id' => $user['user_id']))->find();
-
-        $T_RoleModel                     = new \Think\Model();
-        $T_RoleModel->trueTableName      = 'T_Role';
-        $T_Role                          = $T_RoleModel->where(array('role_id' => $T_User_Role['role_id']))->find();
-        $T_Role_AuthModel                = new \Think\Model();
-        $T_Role_AuthModel->trueTableName = 'T_Role_Auth';
-        $T_Role_Auth                     = $T_Role_AuthModel->where(array('role_id' => $T_Role['role_id']))->select();
-
-        $T_AuthorizationModel                = new \Think\Model();
-        $T_AuthorizationModel->trueTableName = 'T_Authorization';
-        foreach ($T_Role_Auth as $key => $value) {
-            $T_Authorization         = $T_AuthorizationModel->where(array('auth_id' => $value['auth_id']))->find();
-            $user['authorization'][] = (int) $T_Authorization['auth_id'];
-        }
-        // var_dump($T_Role);
-        // var_dump($user);
+        // dump($result);
+        // dump($user);
         // die();
-        $user['Role'] = (int) $T_Role['role_id'];
-        unset($T_User_RoleModel);
-        unset($T_RoleModel);
-        unset($T_AuthorizationModel);
+        // $T_User_RoleModel                = new \Think\Model();
+        // $T_User_RoleModel->trueTableName = 'T_User_Role';
+        // $T_User_Role                     = $T_User_RoleModel->where(array('user_id' => $user['user_id']))->find();
+
+        // $T_RoleModel                     = new \Think\Model();
+        // $T_RoleModel->trueTableName      = 'T_Role';
+        // $T_Role                          = $T_RoleModel->where(array('role_id' => $T_User_Role['role_id']))->find();
+        // $T_Role_AuthModel                = new \Think\Model();
+        // $T_Role_AuthModel->trueTableName = 'T_Role_Auth';
+        // $T_Role_Auth                     = $T_Role_AuthModel->where(array('role_id' => $T_Role['role_id']))->select();
+
+        // $T_AuthorizationModel                = new \Think\Model();
+        // $T_AuthorizationModel->trueTableName = 'T_Authorization';
+        // foreach ($T_Role_Auth as $key => $value) {
+        //     $T_Authorization         = $T_AuthorizationModel->where(array('auth_id' => $value['auth_id']))->find();
+        //     $user['authorization'][] = (int) $T_Authorization['auth_id'];
+        // }
+        // // var_dump($T_Role);
+        // // var_dump($user);
+        // // die();
+        // $user['Role'] = (int) $T_Role['role_id'];
+        // unset($T_User_RoleModel);
+        // unset($T_RoleModel);
+        // unset($T_AuthorizationModel);
         return $user;
     }
 
