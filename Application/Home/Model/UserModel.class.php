@@ -66,13 +66,16 @@ ORDER BY
         $user = array();
         foreach ($result as $key => $value) {
             $user['u_id']=$value['u_id'],
-            // $user['username']
-            // $user['password']
-            // $user['create_time']
-            // $user['role_id']
-            // $user['auth_id']
-            // $user['role_name']
-            // $user['role_description']
+            $user['username']
+            $user['password']
+
+
+            
+            $user['create_time']
+            $user['role_id']
+            $user['auth_id']
+            $user['role_name']
+            $user['role_description']
         }
         dump($user);
         die();
