@@ -64,15 +64,21 @@ ORDER BY
         }
         $user = array();
         foreach ($result as $key => $value) {
-            $user['u_id']             = $value['u_id'];
-            $user['username']         = $value['username'];
-            $user['password']         = $value['password'];
-            $user['create_time']      = $value['create_time'];
-            $user['role_id']          = $value['role_id'];
-            $user['auth_id']          = $value['auth_id'];
-            $user['role_name']        = $value['role_name'];
-            $user['role_description'] = $value['role_description'];
+            $user['u_id']        = $value['u_id'];
+            $user['username']    = $value['username'];
+            $user['password']    = $value['password'];
+            $user['create_time'] = $value['create_time'];
+            // $user['role'][] = array(
+            //     'role_id'   => $value['role_id'],
+            //     'role_name' => $value['role_name'],
+            //     'role_description' => $value['role_description'],
+            // );
+            $user['auth'][] = $value['auth_id'];
+            $user['role'][] = $value['role_id'];
         }
+
+ $user['auth']=array_unique($user['auth']);
+        
         // dump($result);
         // dump($user);
         // die();

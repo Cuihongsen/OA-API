@@ -21,7 +21,7 @@ class BasicController extends Controller
      */
     public function __construct()
     {
-        //开启缓存    
+        //开启缓存
         // S(array('expire' => 60));
         parent::__construct();
         $this->UserModel = new \Home\Model\UserModel();
@@ -50,12 +50,14 @@ class BasicController extends Controller
     {
         $this->_checkParams(array('u_id', 'token'));
         $user = $this->UserModel->findUser(I('post.u_id'));
-        // dump($user);
-        // die();
-        // $this->UserModel->checkToken($user, I('post.token'));
-        // if ($user['token'] !== I('post.token')) {
-        //     $this->ajaxReturn(ReturnCodeModel::send(601));
-        // }
+        if (!$user) {
+            $this->ajaxReturn(ReturnCodeModel::send(601));
+            return null;
+        }
+        $user_1 = D('token')->find(I('post.u_id'));
+        if ($user_1['token'] !== I('post.token')) {
+            $this->ajaxReturn(ReturnCodeModel::send(601));
+        }
         return $user;
     }
 
@@ -67,16 +69,12 @@ class BasicController extends Controller
 
     public function _checkParams($params)
     {
-// dump($params);
         foreach ($params as $key => $value) {
-            // dump($value);
-            // dump(I("post.{$value}"));
-            // dump($_POST[$value]);
             if (null === $_POST[$value]) {
                 $this->ajaxReturn(ReturnCodeModel::send(400, "参数{$value}不存在"));
             }
         }
-// die();
+
 
     }
 
