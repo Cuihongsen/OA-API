@@ -113,7 +113,7 @@ class SignModel extends Model
                 }
             }
 //没签退
-            if (in_array('sign', $state) && (!in_array('signOut', $state))) {
+            if (in_array('sign', $state) && (!in_array('signOut', $state))&&count($state)==1) {
                 if (in_array('late', $state)) {
                     $res[$key]['state'][] = 'late';
                 } else {

@@ -35,7 +35,7 @@ class SignController extends BasicController
             $signResult = $this->SignModel->option($this->user['u_id'], 'late');
             // die(time());
         } else {
-            $this->ajaxReturn(ReturnCodeModel::send(200, '过时'));
+            $this->ajaxReturn(ReturnCodeModel::send(201, '过时'));
         }
 
         switch ($signResult) {
@@ -43,7 +43,7 @@ class SignController extends BasicController
                 $this->ajaxReturn(ReturnCodeModel::send(200));
                 break;
             case -1:
-                $this->ajaxReturn(ReturnCodeModel::send(200, "重复操作"));
+                $this->ajaxReturn(ReturnCodeModel::send(202, "重复操作"));
                 break;
             default:
                 $this->ajaxReturn(ReturnCodeModel::send(400));
@@ -68,30 +68,34 @@ class SignController extends BasicController
             foreach ($res as $key => $value) {
                 if ($value['date'] == date('Y-m-d', $month)) {
                     $map['state'] = $value['state'];
-                }
+                }   
             }
             $arr[] = $map;
             $month += 60 * 60 * 24;
         }
         $today = $this->SignModel->where(array('year' => date('Y', time()), 'month' => date('m', time()), 'date' => date('d', time()), 'u_id' => $this->user['u_id']))->find();
-        $state = explode(',', $today['state']);
         $op    = array();
 
-        if ((!in_array('sign', $state)) && time() < strtotime(date('Y-m-d 09:15:00', time())) && count($state) == 0) {
-            $op[] = 'sign';
+        if (time() < strtotime(date('Y-m-d 09:15:00', time())) && (!$today['state'])) {
+            $op[] = 'signIn';
             // phpinfo();
         }
+        $state = explode(',', $today['state']);
+        // var_dump($today['state']);
+// var_dump(count($state) == 0);
+        // var_dump(!in_array('sign', $state));
+        // var_dump(time() <strtotime(date('Y-m-d 09:15:00', time())));
         if (time() > strtotime(date('Y-m-d 18:50:00', time()))) {
             if (in_array('sign', $state) && count($state) == 1) {
-                $op[] = 'signOut';
+                $op[] = 'signOff';
             }
 
             if (in_array('leaveHalf', $state) && count($state) == 1) {
-                $op[] = 'signOut';
+                $op[] = 'signOff';
             }
 
         }
-        print_r($op);
+        // print_r($op);
         // die();
         // $month = date('Y-m-d H:i:s', $month);
         $this->ajaxReturn(ReturnCodeModel::send(200, null, array('signRecord' => $arr, 'operable' => $op)));
