@@ -68,7 +68,7 @@ class SignController extends BasicController
             foreach ($res as $key => $value) {
                 if ($value['date'] == date('Y-m-d', $month)) {
                     $map['state'] = $value['state'];
-                }   
+                }
             }
             $arr[] = $map;
             $month += 60 * 60 * 24;
@@ -82,11 +82,11 @@ class SignController extends BasicController
         }
         $state = explode(',', $today['state']);
         // var_dump($today['state']);
-// var_dump(count($state) == 0);
+        // var_dump(count($state) == 0);
         // var_dump(!in_array('sign', $state));
         // var_dump(time() <strtotime(date('Y-m-d 09:15:00', time())));
         if (time() > strtotime(date('Y-m-d 18:50:00', time()))) {
-            if (in_array('sign', $state) && count($state) == 1) {
+            if ((in_array('sign', $state) && count($state) == 1) || (in_array('sign', $state) && (in_array('late', $state) && count($state) == 2))) {
                 $op[] = 'signOff';
             }
 
@@ -100,6 +100,48 @@ class SignController extends BasicController
         // $month = date('Y-m-d H:i:s', $month);
         $this->ajaxReturn(ReturnCodeModel::send(200, null, array('signRecord' => $arr, 'operable' => $op)));
 
+    }
+
+    public function signOut()
+    {
+        $today = $this->SignModel->where(array('year' => date('Y', time()), 'month' => date('m', time()), 'date' => date('d', time()), 'u_id' => $this->user['u_id']))->find();
+        $op    = array();
+
+        if (time() < strtotime(date('Y-m-d 09:15:00', time())) && (!$today['state'])) {
+            $op[] = 'signIn';
+            // phpinfo();
+        }
+        $state = explode(',', $today['state']);
+        // var_dump($today['state']);
+        // var_dump(count($state) == 0);
+        // var_dump(!in_array('sign', $state));
+        // var_dump(time() <strtotime(date('Y-m-d 09:15:00', time())));
+        if (time() > strtotime(date('Y-m-d 18:50:00', time()))) {
+            if (in_array('signOut', $state)) {
+                $this->ajaxReturn(ReturnCodeModel::send(200, '已签退'));
+            }
+
+            if ((in_array('sign', $state) && count($state) == 1) || (in_array('sign', $state) && (in_array('late', $state) && count($state) == 2))) {
+                $op[] = 'signOff';
+            }
+
+            if (in_array('leaveHalf', $state) && count($state) == 1) {
+                $op[] = 'signOff';
+            }
+
+        } else {
+            $this->ajaxReturn(ReturnCodeModel::send(200, '时间不正确'));
+        }
+
+        // var_dump($today['state']);
+        if (in_array('signOff', $op)) {
+            if ($this->SignModel->option($this->user['u_id'], 'signOut')) {
+                $this->ajaxReturn(ReturnCodeModel::send(200, null));
+            }
+            $this->ajaxReturn(ReturnCodeModel::send(500, null));
+        } else {
+            $this->ajaxReturn(ReturnCodeModel::send(200, '不可签退状态'));
+        }
     }
 
 }

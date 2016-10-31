@@ -67,7 +67,7 @@ class SignModel extends Model
         }
         $sql = "UPDATE oa_sign SET state = state " . $map['state'] . " WHERE `year` = " . $map['year'] . " AND `month` = " . $map['month'] . " AND `date` = " . $map['date'] . " AND u_id =" . $map['u_id'];
         // var_dump($sql);
-        $res = $this->execute("UPDATE oa_sign SET state = state |8 WHERE `year` = 2016 AND `month` = 10 AND `date` = 25 AND u_id =1");
+        $res = $this->execute($sql);
         if (!$res) {
             return -1;
         }
@@ -113,7 +113,7 @@ class SignModel extends Model
                 }
             }
 //没签退
-            if (in_array('sign', $state) && (!in_array('signOut', $state))&&count($state)==1) {
+            if (in_array('sign', $state) && (!in_array('signOut', $state)) && count($state) == 1) {
                 if (in_array('late', $state)) {
                     $res[$key]['state'][] = 'late';
                 } else {
