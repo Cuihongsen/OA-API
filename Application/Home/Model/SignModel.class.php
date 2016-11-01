@@ -36,7 +36,8 @@ class SignModel extends Model
                     $this->add();
                     return 1;
                 } else {
-                    return -1;
+                    // return -1;
+                     $map['state'] = '|1|16';
                 }
                 break;
             case 'leaveFull':
@@ -57,7 +58,8 @@ class SignModel extends Model
                     $this->add();
                     return 1;
                 } else {
-                    return -1;
+                    $map['state'] = '|16';
+                    // return -1;
                 }
                 break;
             default:
@@ -67,6 +69,7 @@ class SignModel extends Model
         }
         $sql = "UPDATE oa_sign SET state = state " . $map['state'] . " WHERE `year` = " . $map['year'] . " AND `month` = " . $map['month'] . " AND `date` = " . $map['date'] . " AND u_id =" . $map['u_id'];
         // var_dump($sql);
+        // die();
         $res = $this->execute($sql);
         if (!$res) {
             return -1;
