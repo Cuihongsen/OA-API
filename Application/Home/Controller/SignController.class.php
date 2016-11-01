@@ -137,7 +137,7 @@ class SignController extends BasicController
         $this->_checkParams(array('toUser', 'option', 'date'));
         $option = (array_unique(I('post.option')));
         $error  = 0;
-        if (in_array('leaveFull', $option)) {
+        if (in_array('leaveFull', $option) && count($option) != 1) {
             $error = 1;
         }
         if (in_array('leaveHalf', $option)) {
@@ -157,8 +157,7 @@ class SignController extends BasicController
             }
         }
         if ($error) {
-            $this->ajaxReturn(ReturnCodeModel::send(200,'你输入的数据有误'));
-           
+            $this->ajaxReturn(ReturnCodeModel::send(200, '你输入的数据有误'));
         }
         $map = array(
             'u_id'     => I('post.toUser'),
