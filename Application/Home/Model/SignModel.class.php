@@ -83,6 +83,12 @@ class SignModel extends Model
         foreach ($input as $key => $value) {
             $res[$key]['date'] = $value['year'] . '-' . $value['month'] . '-' . $value['date'];
             $state             = explode(',', $value['state']);
+
+            // 旷工
+            if ($value['absenteeism']) {
+                $res[$key]['state'][] = 'absenteeism';
+            }
+            
 //请一天假
             if (in_array('leaveFull', $state)) {
                 $res[$key]['state'][] = 'leaveFull';
@@ -100,6 +106,7 @@ class SignModel extends Model
                 if (in_array('late', $state)) {
                     $res[$key]['state'][] = 'late';
                 }
+                $res[$key]['state'][] = 'signOut';
             }
 //半天异常
             if (in_array('leaveHalf', $state) && count($state) == 1) {
@@ -114,6 +121,7 @@ class SignModel extends Model
                     $res[$key]['state'][] = 'sign';
 
                 }
+                 $res[$key]['state'][] = 'signOut';
             }
 //没签退
             if (in_array('sign', $state) && (!in_array('signOut', $state)) && count($state) == 1) {

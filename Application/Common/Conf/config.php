@@ -1,7 +1,8 @@
 <?php
 return array(
     'DB_TYPE'      => 'mysql', // 数据库类型
-    'DB_HOST'      => '115.159.90.233', // 服务器地址
+    // 'DB_HOST'      => '115.159.90.233', // 服务器地址
+    'DB_HOST'      => 'localhost', // 服务器地址
     // 'DB_HOST'      => '192.168.1.135', // 服务器地址
     'DB_NAME'      => 'oa', // 数据库名
     'DB_USER'      => 'root', // 用户名

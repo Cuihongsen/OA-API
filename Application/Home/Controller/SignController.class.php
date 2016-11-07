@@ -56,25 +56,47 @@ class SignController extends BasicController
 
     public function getMonth()
     {
-        $res       = $this->SignModel->where(array('year' => date('Y', time()), 'month' => date('m', time()), 'u_id' => $this->user['u_id']))->select();
+        if (I('toUser')) {
+            $toUser = I('toUser');
+        } else {
+            $toUser = $this->user['u_id'];
+        }
+        if (I('post.month')) {
+            // var_dump(explode('-', I('post.month'))[0]);
+            $D      = date('Ymd', mktime(0, 0, 0, explode('-', I('post.month'))[1] + 1, 0, explode('-', I('post.month'))[0]));
+            $endDay = strtotime($D);
+            // var_dump($endDay);
+            // die();
+        } else {
+            $endDay = time();
+        }
+
+        $res = $this->SignModel->where(array('year' => date('Y', $endDay), 'month' => date('m', $endDay), 'u_id' => $toUser))->select();
+        // var_dump($res);
+        // die();
         $res       = $this->SignModel->ProcessData($res);
-        $thisMonth = date('m', time());
-        $month     = strtotime(date('Y-m-1', time()));
+        $thisMonth = date('m', $endDay); //当前月份
+        $month     = strtotime(date('Y-m-01', $endDay)); //当前月份第一天时间戳
         $arr       = array();
-        while ($month < time()) {
+        while ($month <= $endDay) {
+            // die();
             $map = array(
                 'date'  => date('Y-m-d', $month),
                 'state' => null,
             );
             foreach ($res as $key => $value) {
-                if ($value['date'] == date('Y-m-d', $month)) {
+                // var_dump($value['date']);
+                // var_dump(date('Y-m-d', $month));
+                if (strtotime($value['date']) == $month) {
                     $map['state'] = $value['state'];
                 }
             }
             $arr[] = $map;
             $month += 60 * 60 * 24;
         }
-        $today = $this->SignModel->where(array('year' => date('Y', time()), 'month' => date('m', time()), 'date' => date('d', time()), 'u_id' => $this->user['u_id']))->find();
+        // var_dump($arr);
+        // die();
+        $today = $this->SignModel->where(array('year' => date('Y', time()), 'month' => date('m', time()), 'date' => date('d', time()), 'u_id' => $toUser))->find();
         $op    = array();
 
         if (time() < strtotime(date('Y-m-d 09:15:00', time())) && (!$today['state'])) {
@@ -89,7 +111,6 @@ class SignController extends BasicController
             if (in_array('leaveHalf', $state) && count($state) == 1) {
                 $op[] = 'signOff';
             }
-
         }
         // print_r($op);
         // die();
@@ -120,7 +141,7 @@ class SignController extends BasicController
             }
 
         } else {
-            $this->ajaxReturn(ReturnCodeModel::send(203, '时间不正确'));
+            $this->ajaxReturn(ReturnCodeModel::send(201, '时间不正确'));
         }
         if (in_array('signOff', $op)) {
             if ($this->SignModel->option($this->user['u_id'], 'signOut')) {
@@ -157,7 +178,7 @@ class SignController extends BasicController
             }
         }
         if ($error) {
-            $this->ajaxReturn(ReturnCodeModel::send(200, '你输入的数据有误'));
+            $this->ajaxReturn(ReturnCodeModel::send(400, '你输入的数据有误'));
         }
         $map = array(
             'u_id'     => I('post.toUser'),
@@ -182,7 +203,7 @@ class SignController extends BasicController
             if ($res == 1) {
                 $this->ajaxReturn(ReturnCodeModel::send(200));
             } elseif ($res == 0) {
-                $this->ajaxReturn(ReturnCodeModel::send(200, '无更改'));
+                $this->ajaxReturn(ReturnCodeModel::send(203, '无更改'));
             }
         }
     }

@@ -7,7 +7,7 @@ namespace Home\Model;
 /**
  * Class ReturnCodeModel
  * @package Home\Model
- */
+ */ 
 class ReturnCodeModel
 {
     /**
@@ -56,7 +56,7 @@ class ReturnCodeModel
      * @param $contents
      * @return array
      */
-    public static function send($code, $message, $contents)
+    public static function send($code, $message=null, $contents=null)
     {
         if (null == $message) {
             $message = static::$http_codes[$code];
