@@ -137,7 +137,7 @@ class SignModel extends Model
             }
 // var_dump($value);
             if ($value['vacation']) {
-                $res[$key]['state'] = 'vacation';
+                $res[$key]['state'] =array( 'vacation');
             }
 
         }
