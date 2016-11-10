@@ -59,11 +59,13 @@ class SignController extends BasicController
 
     public function getMonth()
     {
+        //如果没有toUser，则查询自己的信息
         if (I('toUser')) {
             $toUser = I('toUser');
         } else {
             $toUser = $this->user['u_id'];
         }
+        //如果有month则查询month，否则查询当月
         if (I('post.month')) {
             // var_dump(explode('-', I('post.month'))[0]);
             $D      = date('Ymd', mktime(0, 0, 0, explode('-', I('post.month'))[1] + 1, 0, explode('-', I('post.month'))[0]));

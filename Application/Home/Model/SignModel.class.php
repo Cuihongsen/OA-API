@@ -37,7 +37,7 @@ class SignModel extends Model
                     return 1;
                 } else {
                     // return -1;
-                     $map['state'] = '|1|16';
+                    $map['state'] = '|1|16';
                 }
                 break;
             case 'leaveFull':
@@ -88,7 +88,7 @@ class SignModel extends Model
             if ($value['absenteeism']) {
                 $res[$key]['state'][] = 'absenteeism';
             }
-            
+
 //请一天假
             if (in_array('leaveFull', $state)) {
                 $res[$key]['state'][] = 'leaveFull';
@@ -98,8 +98,8 @@ class SignModel extends Model
                 $res[$key]['state'][] = 'leaveHalf';
                 if (in_array('late', $state)) {
                     $res[$key]['state'][] = 'late';
-                }else{
-                 $res[$key]['state'][] = 'sign';
+                } else {
+                    $res[$key]['state'][] = 'sign';
                 }
             }
 //半天假正常
@@ -123,7 +123,7 @@ class SignModel extends Model
                     $res[$key]['state'][] = 'sign';
 
                 }
-                 $res[$key]['state'][] = 'signOut';
+                $res[$key]['state'][] = 'signOut';
             }
 //没签退
             if (in_array('sign', $state) && (!in_array('signOut', $state)) && count($state) == 1) {
@@ -134,6 +134,10 @@ class SignModel extends Model
                 }
 
                 $res[$key]['state'][] = 'notSignOut';
+            }
+// var_dump($value);
+            if ($value['vacation']) {
+                $res[$key]['state'] = 'vacation';
             }
 
         }
