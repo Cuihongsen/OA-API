@@ -93,7 +93,6 @@ class SetController extends BasicController
                 );
             }
         }
-
         $deleteSQL = "
         DELETE
         FROM
@@ -137,13 +136,63 @@ class SetController extends BasicController
             $this->ajaxReturn(ReturnCodeModel::send(400));
         }
         // var_dump($year, $month);
-        $sql  = "SELECT `date` FROM  oa_sign WHERE `vacation` = 1 GROUP BY `year` ,`month`, `date` HAVING `year` =" . $year . " AND `month`= " . $month;
+        $sql  = "SELECT `date` FROM  oa_sign WHERE `vacation` = 1 and c_id = " . $this->user['c_id'] . " GROUP BY `year` ,`month`, `date` HAVING `year` =" . $year . " AND `month`= " . $month;
         $res  = D()->query($sql);
         $date = array();
         foreach ($res as $key => $value) {
             $date[] = $value['date'];
         }
-       $this->ajaxReturn(ReturnCodeModel::send(200,null,array('date'=>$date)));
+        $this->ajaxReturn(ReturnCodeModel::send(200, null, array('date' => $date)));
     }
 
+    public function setDateToVacation()
+    {
+        $this->_checkParams(array('contents'));
+        $this->SignModel->startTrans();
+        try {
+            foreach (I('post.contents') as $key => $value) {
+                if (strtotime($key) < time()) {
+                    $this->ajaxReturn(ReturnCodeModel::send(400));
+                }
+                switch ($value) {
+                    case 'work': //设置成工作日
+                        $deleteSQL = "DELETE FROM oa_sign WHERE c_id =" . $this->user['c_id'] . " and `year`= " . explode("-", $key)[0] . " and `month`=" . explode("-", $key)[1] . " and `date`=" . explode("-", $key)[2];
+                        $this->SignModel->execute($deleteSQL);
+                        break;
+                    case 'vacation': //设置成假期
+                        $dataList = array();
+                        $dates    = array($key);
+                        $sql      = "SELECT * from oa_company LEFT  JOIN oa_user on oa_company.c_id=oa_user.c_id WHERE oa_company.c_id= " . $this->user['c_id'];
+                        $users    = D()->query($sql);
+                        foreach ($users as $key => $value) {
+                            foreach ($dates as $k => $v) {
+                                $dataList[] = array(
+                                    'year'     => explode('-', $v)[0],
+                                    'month'    => explode('-', $v)[1],
+                                    'date'     => explode('-', $v)[2],
+                                    'u_id'     => $value['u_id'],
+                                    'c_id'     => $value['c_id'],
+                                    'operator' => $this->user['u_id'],
+                                    'vacation' => 1,
+                                );
+                            }
+                        }
+                        $this->SignModel->addAll($dataList);
+                        // var_dump($dataList);
+                        break;
+                    default:
+                        $this->ajaxReturn(ReturnCodeModel::send(400));
+                        break;
+                }
+
+            }
+            // 事务提交
+            $this->SignModel->commit();
+            $this->ajaxReturn(ReturnCodeModel::send(200));
+        } catch (\Think\Exception $e) {
+            // 异常回滚
+            $this->SignModel->rollback();
+            $this->ajaxReturn(ReturnCodeModel::send(400));
+        }
+    }
 }
