@@ -98,6 +98,8 @@ class SignModel extends Model
                 $res[$key]['state'][] = 'leaveHalf';
                 if (in_array('late', $state)) {
                     $res[$key]['state'][] = 'late';
+                }else{
+                 $res[$key]['state'][] = 'sign';
                 }
             }
 //半天假正常

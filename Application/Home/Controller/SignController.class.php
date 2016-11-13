@@ -27,6 +27,9 @@ class SignController extends BasicController
         // 查找今天的记录验证是否已经签到
         $today = $this->SignModel->where(array('year' => date('Y', time()), 'month' => date('m', time()), 'date' => date('d', time()), 'u_id' => $this->user['u_id']))->find();
         $state = explode(',', $today['state']);
+        if ($today['vacation']) {
+            $this->ajaxReturn(ReturnCodeModel::send(201, '放假')); //超出可签到时间
+        }
         if (in_array('sign', $state)) {
             $this->ajaxReturn(ReturnCodeModel::send(202, "重复操作"));
         }
@@ -70,7 +73,7 @@ class SignController extends BasicController
         } else {
             $endDay = time();
         }
-
+/*获取时间段内的记录*/
         $res = $this->SignModel->where(array('year' => date('Y', $endDay), 'month' => date('m', $endDay), 'u_id' => $toUser))->select();
         // var_dump($res);
         // die();
@@ -96,8 +99,13 @@ class SignController extends BasicController
         }
         // var_dump($arr);
         // die();
+        /*设置今天的可操作状态*/
         $today = $this->SignModel->where(array('year' => date('Y', time()), 'month' => date('m', time()), 'date' => date('d', time()), 'u_id' => $toUser))->find();
         $op    = array();
+        // 今天放假
+        if ($today['vacation']) {
+            $this->ajaxReturn(ReturnCodeModel::send(200, null, array('signRecord' => $arr, 'operable' => null)));
+        }
 
         if (time() < strtotime(date('Y-m-d 09:15:00', time())) && (!$today['state'])) {
             $op[] = 'signIn';
@@ -205,6 +213,35 @@ class SignController extends BasicController
             } elseif ($res == 0) {
                 $this->ajaxReturn(ReturnCodeModel::send(203, '无更改'));
             }
+        }
+    }
+    /**
+     * 设置某个用户的某一天的状态为旷工
+     */
+    public function setAbsenteeism()
+    {
+        $this->_checkParams(array('toUser', 'date'));
+        $map = array(
+            'u_id'        => I('post.toUser'),
+            'year'        => explode('-', I('post.date'))[0],
+            'month'       => explode('-', I('post.date'))[1],
+            'date'        => explode('-', I('post.date'))[2],
+            'absenteeism' => 1,
+            'operator'    => $this->user['u_id'],
+            'c_id'        => $this->UserModel->findUser(I('post.toUser'))['c_id'],
+        );
+        if (!$this->SignModel->create($map)) {
+            unset($map['absenteeism']);
+            if ($this->SignModel->where($map)->data(array('absenteeism' => 1))) {
+                $this->SignModel->save();
+                $this->ajaxReturn(ReturnCodeModel::send(200));
+            } else {
+                $this->ajaxReturn(ReturnCodeModel::send(500, $this->SignModel->getError()));
+            }
+
+        } else {
+            $this->SignModel->add();
+            $this->ajaxReturn(ReturnCodeModel::send(200));
         }
     }
 

@@ -15,6 +15,7 @@ class UserModel extends Model
     public $pass_word;
     public $nick_name;
     public $user_profile;
+    protected $patchValidate = true;
 
     /**
      * 自动验证规则
@@ -38,7 +39,7 @@ class UserModel extends Model
         // $user    = $this->find($user_id);
         $dbModel = new \Think\Model();
         $sql     = "SELECT
-    *
+   b.*,oa_role.role_description,oa_role.role_id,oa_role.role_name
 FROM
     (
         SELECT
@@ -63,11 +64,14 @@ ORDER BY
             return false;
         }
         $user = array();
+        // var_dump($result);
+        // die();
         foreach ($result as $key => $value) {
             $user['u_id']        = $value['u_id'];
             $user['username']    = $value['username'];
             $user['password']    = $value['password'];
             $user['create_time'] = $value['create_time'];
+            $user['c_id']        = $value['c_id'];
             // $user['role'][] = array(
             //     'role_id'   => $value['role_id'],
             //     'role_name' => $value['role_name'],
@@ -77,8 +81,8 @@ ORDER BY
             $user['role'][] = $value['role_id'];
         }
 
- $user['auth']=array_unique($user['auth']);
-        
+        $user['auth'] = array_unique($user['auth']);
+
         // dump($result);
         // dump($user);
         // die();
