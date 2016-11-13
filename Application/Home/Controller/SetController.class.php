@@ -66,7 +66,7 @@ class SetController extends BasicController
         $deleteLsit      = array();
         $companyModel    = D('company');
         $company         = $companyModel->where(array('c_id' => $this->user['c_id']))->find();
-        $dates           = week_to_date(array(0, 6), date('Y-m-d H:i:s', time() + 24 * 60 * 60), $company['end_time']);
+        $dates           = week_to_date(array(I('post.date')[0],I('post.date')[1]), date('Y-m-d H:i:s', time() + 24 * 60 * 60), $company['end_time']);
         $dataList        = array();
         $sql             = "SELECT * from oa_company LEFT  JOIN oa_user on oa_company.c_id=oa_user.c_id WHERE oa_company.c_id= " . $this->user['c_id'];
         $users           = D()->query($sql);
