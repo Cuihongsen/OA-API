@@ -58,6 +58,12 @@ class SetController extends BasicController
     {
         $this->_checkParams(array('date'));
         $week = I('post.date');
+        foreach ($week as $key => $value) {
+            if (!in_array($value, array(0, 1, 2, 3, 4, 5, 6))) {
+                $this->ajaxReturn(ReturnCodeModel::send(400));
+            }
+
+        }
         // die();
         // var_dump($this->user['c_id']);
         // $company=D()->query("select * from oa_company where c_id = ".$this->user['c_id']);
@@ -66,7 +72,7 @@ class SetController extends BasicController
         $deleteLsit      = array();
         $companyModel    = D('company');
         $company         = $companyModel->where(array('c_id' => $this->user['c_id']))->find();
-        $dates           = week_to_date(array($week[0], $week[1]), date('Y-m-d H:i:s', time() + 24 * 60 * 60), $company['end_time']);
+        $dates           = week_to_date($week, date('Y-m-d H:i:s', time() + 24 * 60 * 60), $company['end_time']);
         $dataList        = array();
 
         // var_dump( $dates );
