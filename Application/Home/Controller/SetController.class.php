@@ -57,7 +57,7 @@ class SetController extends BasicController
     public function setVacation()
     {
         $this->_checkParams(array('date'));
-        // var_dump(I('post.date'));
+        $week = I('post.date');
         // die();
         // var_dump($this->user['c_id']);
         // $company=D()->query("select * from oa_company where c_id = ".$this->user['c_id']);
@@ -66,10 +66,14 @@ class SetController extends BasicController
         $deleteLsit      = array();
         $companyModel    = D('company');
         $company         = $companyModel->where(array('c_id' => $this->user['c_id']))->find();
-        $dates           = week_to_date(array(I('post.date')[0],I('post.date')[1]), date('Y-m-d H:i:s', time() + 24 * 60 * 60), $company['end_time']);
+        $dates           = week_to_date(array($week[0], $week[1]), date('Y-m-d H:i:s', time() + 24 * 60 * 60), $company['end_time']);
         $dataList        = array();
-        $sql             = "SELECT * from oa_company LEFT  JOIN oa_user on oa_company.c_id=oa_user.c_id WHERE oa_company.c_id= " . $this->user['c_id'];
-        $users           = D()->query($sql);
+
+        // var_dump( $dates );
+        // var_dump(week_to_date(array(1, 2, 3), '2016-11-14','2016-12-31'));
+        // die();
+        $sql   = "SELECT * from oa_company LEFT  JOIN oa_user on oa_company.c_id=oa_user.c_id WHERE oa_company.c_id= " . $this->user['c_id'];
+        $users = D()->query($sql);
         foreach ($users as $key => $value) {
             foreach ($dates as $k => $v) {
                 $dataList[] = array(
@@ -117,6 +121,5 @@ class SetController extends BasicController
             $signModel->rollback();
         }
     }
-
 
 }
