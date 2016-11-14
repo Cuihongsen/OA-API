@@ -137,7 +137,7 @@ class SetController extends BasicController
             $this->ajaxReturn(ReturnCodeModel::send(400));
         }
         // var_dump($year, $month);
-        $sql  = "SELECT `date` FROM oa_sign GROUP BY `year` ,`month`, `date` HAVING `year` =" . $year . " AND `month`= " . $month;
+        $sql  = "SELECT `date` FROM  oa_sign WHERE `vacation` = 1 GROUP BY `year` ,`month`, `date` HAVING `year` =" . $year . " AND `month`= " . $month;
         $res  = D()->query($sql);
         $date = array();
         foreach ($res as $key => $value) {
