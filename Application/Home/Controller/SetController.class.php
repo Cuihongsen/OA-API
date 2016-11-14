@@ -128,4 +128,22 @@ class SetController extends BasicController
         }
     }
 
+    public function getVacation()
+    {
+        $this->_checkParams(array('date'));
+        $year  = explode('-', I('post.date'))[0];
+        $month = explode('-', I('post.date'))[1];
+        if (!$year || !$month) {
+            $this->ajaxReturn(ReturnCodeModel::send(400));
+        }
+        // var_dump($year, $month);
+        $sql  = "SELECT `date` FROM oa_sign GROUP BY `year` ,`month`, `date` HAVING `year` =" . $year . " AND `month`= " . $month;
+        $res  = D()->query($sql);
+        $date = array();
+        foreach ($res as $key => $value) {
+            $date[] = $value['date'];
+        }
+       $this->ajaxReturn(ReturnCodeModel::send(200,null,array('date'=>$date)));
+    }
+
 }
