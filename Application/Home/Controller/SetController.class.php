@@ -56,6 +56,7 @@ class SetController extends BasicController
 
     public function setVacation()
     {
+        $this->_isAdmin();
         $this->_checkParams(array('date'));
         $week = I('post.date');
         foreach ($week as $key => $value) {
@@ -129,6 +130,7 @@ class SetController extends BasicController
 
     public function getVacation()
     {
+        // $this->_isAdmin();
         $this->_checkParams(array('date'));
         $year  = explode('-', I('post.date'))[0];
         $month = explode('-', I('post.date'))[1];
@@ -147,6 +149,7 @@ class SetController extends BasicController
 
     public function setDateToVacation()
     {
+        $this->_isAdmin();
         $this->_checkParams(array('contents'));
         $this->SignModel->startTrans();
         try {
@@ -188,6 +191,152 @@ class SetController extends BasicController
             }
             // 事务提交
             $this->SignModel->commit();
+            $this->ajaxReturn(ReturnCodeModel::send(200));
+        } catch (\Think\Exception $e) {
+            // 异常回滚
+            $this->SignModel->rollback();
+            $this->ajaxReturn(ReturnCodeModel::send(400));
+        }
+    }
+
+    public function addNewMember()
+    {
+        $this->_isAdmin();
+        $this->_checkParams(
+            array(
+                'userType',
+                'enterTime',
+                'name',
+                'position',
+                'status',
+                'tel',
+                'username',
+                'password',
+            )
+        );
+        $map = array(
+            'username'    => I('post.username'),
+            'password'    => I('post.password'),
+            'userType'    => I('post.userType'),
+            'enterTime'   => I('post.enterTime'),
+            'name'        => I('post.name'),
+            'position'    => I('post.position'),
+            'status'      => I('post.status'),
+            'tel'         => I('post.tel'),
+            'create_time' => date('Y-m-d H:i:s', time()),
+            'c_id'        => $this->user['c_id'],
+        );
+        // dump($map);
+        // die();
+        $this->SignModel->startTrans();
+        try {
+            $newUserID = '';
+            if (!$this->UserModel->create($map)) {
+                $this->ajaxReturn(ReturnCodeModel::send(300, $this->UserModel->getError()));
+            }
+            $newUserID = $this->UserModel->add();
+            $role_id   = 1;
+            if ($map['userType'] == 'admin') {
+                $role_id = 2;
+            }
+            $this->UserModel->execute("INSERT INTO `oa_user_role` (`user_id`, `role_id`) VALUES ('{$newUserID}', '{$role_id}')");
+            $this->SignModel->commit();
+            $this->ajaxReturn(ReturnCodeModel::send(200));
+
+        } catch (\Think\Exception $e) {
+            // 异常回滚
+            $this->SignModel->rollback();
+            $this->ajaxReturn(ReturnCodeModel::send(400));
+        }
+    }
+
+    public function getMemberInfo()
+    {
+        $this->_checkParams(
+            array(
+                'toUser',
+            )
+        );
+        $field = '';
+        switch ($this->user['usertype']) {
+            case 'user':
+                $field = 'profile,motto,name,sex,tel,weChat,email,birth,birthPlace,enterTime,position,status';
+                break;
+            case 'admin':
+                $field = 'profile,motto,name,sex,tel,weChat,email,birth,birthPlace,enterTime,position,status,bankName,bankNum,bankUser,ALiPay';
+                break;
+            default:
+                $this->ajaxReturn(ReturnCodeModel::send(400));
+                break;
+        }
+        $userInfo = $this->UserModel->field($field)->find(I('post.toUser'));
+
+        $this->ajaxReturn(ReturnCodeModel::send(200, null, $userInfo));
+    }
+    public function setMemberInfo()
+    {
+        $map   = array();
+        $where = array();
+        switch ($this->user['usertype']) {
+            case 'user':
+                $p = array('profile', 'motto', 'name', 'sex', 'tel', 'weChat', 'email', 'birth', 'birthPlace', 'bankName', 'bankNum', 'bankUser', 'ALiPay');
+                foreach ($_POST as $key => $value) {
+                    if (in_array($key, $p)) {
+                        $map[$key] = $value;
+                    }
+                }
+                $where['u_id'] = $this->user['u_id'];
+                break;
+            case 'admin':
+                $this->_checkParams(
+                    array(
+                        'toUser',
+                    )
+                );
+                $p = array('enterTime', 'position', 'status');
+                foreach ($_POST as $key => $value) {
+                    if (in_array($key, $p)) {
+                        $map[$key] = $value;
+                    }
+                }
+                $where['u_id'] = I('post.toUser');
+
+                $toUser = $this->UserModel->where($where)->find();
+                // var_dump($toUser);
+                if ($toUser['c_id'] != $this->user['c_id']) {
+                    $this->ajaxReturn(ReturnCodeModel::send(400, '无权操作这个用户'));
+                }
+                // die();
+                break;
+            default:
+                $this->ajaxReturn(ReturnCodeModel::send(400, '非法用户类型'));
+                break;
+        }
+        if ($this->UserModel->where($where)->data($map)->save()) {
+            $this->ajaxReturn(ReturnCodeModel::send(200));
+        }
+        $this->ajaxReturn(ReturnCodeModel::send(201, '无修改'));
+    }
+
+    public function deleteMember()
+    {
+        $this->_isAdmin();
+        $this->_checkParams(array('toUser'));
+        $this->SignModel->startTrans();
+        $toUser = $this->SignModel->find(I('post.toUser'));
+        if ($toUser['c_id'] != $this->user['c_id']) {
+            $this->ajaxReturn(ReturnCodeModel::send(600, '无权操作'));
+        }
+        try {
+            $sql1 = "DELETE FROM oa_user WHERE u_id = " . I('post.toUser');
+            $sql2 = "DELETE FROM oa_user_role WHERE user_id = " . I('post.toUser');
+            $re1  = $this->UserModel->execute($sql1);
+            $re2  = $this->UserModel->execute($sql2);
+            $this->UserModel->commit();
+            if (!$re1 || !$re2) {
+                $this->ajaxReturn(ReturnCodeModel::send(203, '无更改'));
+            }
+            // var_dump($re1, $re2, $toUser);
             $this->ajaxReturn(ReturnCodeModel::send(200));
         } catch (\Think\Exception $e) {
             // 异常回滚

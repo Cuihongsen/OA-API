@@ -165,6 +165,7 @@ class SignController extends BasicController
 
     public function update()
     {
+        $this->_isAdmin();
         $this->_checkParams(array('toUser', 'option', 'date'));
         $option = (array_unique(I('post.option')));
         $error  = 0;
@@ -222,6 +223,7 @@ class SignController extends BasicController
      */
     public function setAbsenteeism()
     {
+        $this->_isAdmin();
         $this->_checkParams(array('toUser', 'date'));
         $map = array(
             'u_id'        => I('post.toUser'),

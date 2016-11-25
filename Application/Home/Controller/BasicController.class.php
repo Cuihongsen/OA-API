@@ -50,6 +50,8 @@ class BasicController extends Controller
     {
         $this->_checkParams(array('u_id', 'token'));
         $user = $this->UserModel->findUser(I('post.u_id'));
+        // var_dump($use);
+        // die();
         if (!$user) {
             $this->ajaxReturn(ReturnCodeModel::send(601));
             return null;
@@ -75,7 +77,6 @@ class BasicController extends Controller
             }
         }
 
-
     }
 
     /**
@@ -91,5 +92,12 @@ class BasicController extends Controller
     public function _empty()
     {
         $this->ajaxReturn(ReturnCodeModel::send(404));
+    }
+
+    public function _isAdmin()
+    {
+        if ($this->user['usertype'] != 'admin') {
+            $this->ajaxReturn(ReturnCodeModel::send(600, '不具有管理权限'));
+        }
     }
 }

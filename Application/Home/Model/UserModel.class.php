@@ -23,7 +23,7 @@ class UserModel extends Model
      */
     protected $_validate = array(
         // array('verify', 'require', '验证码必须！'), //默认情况下用正则进行验证
-        // array('username', '', '手机号码已存在', 0, 'unique', 3), // 在新增的时候验证name字段是否唯一
+        array('username', '', '用户名已存在', 0, 'unique', 3), // 在新增的时候验证name字段是否唯一
         // array('username', "/^1[3|4|5|7|8][0-9]{9}$/", '手机号码格式错误', 0, 'regex', 3), // 当值不为空的时候判断是否在一个范围内
         // array('repassword', 'password', '确认密码不正确', 0, 'confirm'), // 验证确认密码是否和密码一致
         // array('password', 'checkPwd', '密码格式不正确', 0, 'function'), // 自定义函数验证密码格式
@@ -72,6 +72,7 @@ ORDER BY
             $user['password']    = $value['password'];
             $user['create_time'] = $value['create_time'];
             $user['c_id']        = $value['c_id'];
+            $user['usertype']        = $value['usertype'];
             // $user['role'][] = array(
             //     'role_id'   => $value['role_id'],
             //     'role_name' => $value['role_name'],
