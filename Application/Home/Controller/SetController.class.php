@@ -344,4 +344,11 @@ class SetController extends BasicController
             $this->ajaxReturn(ReturnCodeModel::send(400));
         }
     }
+
+    public function getMemberEasyInfo()
+    {
+        // var_dump(I('post.lastID'));
+        $r = $this->UserModel->field('u_id,name,sex,tel')->where(array('c_id' => $this->user['c_id'],'u_id'=>array('GT',I('post.lastID'))))->order('u_id asc')->limit(10)->select();
+        $this->ajaxReturn(ReturnCodeModel::send(200,null,$r));
+    }
 }
